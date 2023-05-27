@@ -1,0 +1,143 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color:lightgreen;
+  }
+  .home{
+    height: 100%;
+    width: 100%;
+    background-image: url('bkg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .frame2{
+    margin-left:400px;
+    margin-right: 400px;
+  }
+  .frame{
+    border:2px solid red;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-right: 400px;
+  }
+  .flag{
+    margin-left: 350px;
+    height: 200px;
+    width:500px;
+    border:2px solid red;
+  }
+  .center1{
+    margin-left:480px;
+    border:2px solid red;
+    width:250px;
+    height:300px;
+  }
+  nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin:10px;
+    top:0px;
+  }
+  nav{
+    position:fixed;
+    width:100%;
+    background-color: red;
+    border:1px solid black;
+    top:0;
+    margin-right: 0px;
+    z-index: 100;
+  }
+  #w1{
+    color:black;
+    font-family: cursive;
+    font-size: 24px;
+    margin-right:20px;
+  }
+  #w2{
+    color:black;
+    font-family: cursive;
+    font-size: 24px;
+    margin-right:30px;
+  }
+  #w3{
+    color:black;
+    font-family: cursive;
+    font-size: 24px;
+    margin-right:30px;
+  }
+  #w4{
+    color:black;
+    font-family: cursive;
+    font-size: 24px;
+    margin-right:30px;
+  }
+  #w5{
+    color:black ;
+    font-family: cursive;
+    font-size:24px;
+    margin-right:30px;
+  }
+  img{
+    height:200px;
+    width:250px;
+  }
+  
+  p{
+    font-family: cursive;
+    margin:50px;
+    color:black;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  main{
+    position:relative;
+    top:37px;
+    margin:20px;
+    z-index: 0;
+  }
+  h1{
+    margin:50px;
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color: red;
+    font-size:35px;
+  }
+  .center{
+    margin-left:auto;
+    margin-right:auto;
+  }
+  table,th,td{
+    border:2px solid red;
+    text-align:center;
+    margin: 30px;
+    height:150px;
+    width:300px;
+  }
+  #preloader{
+    background: red url("url1.gif") no-repeat center center ;
+    background-size: 100%;
+    height:100%;
+    width:100%;
+    position:fixed;
+    z-index: 100;
+  }
+  @keyframes img3{
+    0% {left:0px ;right:0px;}
+    25% {left:200px;right:200px;}
+    50% {left:400px;right:400px;}
+    75% {left:600px;right:600px;}
+    100% {left:700px;right:700px;}
+  }
+  .img3{
+    animation-name: img3;
+    animation-duration:6s;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    height:100px;
+    width:200px;
+    position:relative;
+  }
+
